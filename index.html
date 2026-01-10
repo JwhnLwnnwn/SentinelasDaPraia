@@ -27,19 +27,22 @@
 </head>
 
 <body>
-    <header>
+
+    <header class="header">
         <h1>Sentinelas da Praia</h1>
-        <nav><a
-                href="podio.html"><i
-                class="fa-solid fa-trophy"></i></a>
+        <nav>
+            <a href="podio.html"
+                aria-label="Ver pódio do jogo"><i
+                    class="fa-solid fa-trophy"></i></a>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <h2>O que é o jogo Sentinelas da
             Praia?</h2>
 
-        <section>
+        <section id="intro"
+            class="section">
             <h3>Proposta</h3>
             <p>O jogo Sentinelas da Praia
                 surgiu primeiro como um
@@ -49,9 +52,13 @@
                 uma versão jogável,
                 apresentada na feira do
                 conhecimento 2025.</p>
+
+            <img src="./img/jogo.png" alt="Tela do jogo
+                Sentinelas da Praia">
         </section>
 
-        <section>
+        <section id="tematica"
+            class="section">
             <h3>Tema</h3>
             <p>Jogadores devem investir em
                 tartarugas para proteger a
@@ -72,9 +79,11 @@
                     Defense</li>
                 <li>Foco em conscientização
                     ambiental</li>
+            </ul>
         </section>
 
-        <section>
+        <section id="equipe"
+            class="section">
             <h3>
                 Equipe </h3>
             <ul>
@@ -90,10 +99,9 @@
                     sonoplastia: João
                     Amauri</li>
             </ul>
-
         </section>
 
-        <aside>
+        <aside class="aside">
             <h4>Opinião da equipe Cowabunga
                 sobre a experiência de
                 criar o jogo
@@ -112,20 +120,22 @@
                 visão por trás.</p>
         </aside>
 
-        <iframe frameborder="0"
-            src="https://itch.io/embed/3914136?bg_color=193d3f&amp;fg_color=afbfd2&amp;border_color=193d3f"
-            width="552" height="167"><a
-                href="https://neetww.itch.io/turtledefense">Sentinelas
-                da Praia by
-                Neetww</a></iframe>
-
-
+        <div class="itch-embed">
+            <h4>Jogue agora!</h4>
+            <iframe
+                title="Botão para acessar o jogo"
+                src="https://itch.io/embed/3914136?bg_color=193d3f&amp;fg_color=afbfd2&amp;border_color=193d3f"><a
+                    href="https://neetww.itch.io/turtledefense">Sentinelas
+                    da Praia by
+                    Neetww</a></iframe>
+        </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>© 2024 Sentinelas da Praia todos
             os direitos reservados.</p>
     </footer>
+
 </body>
 
 </html>
