@@ -1,0 +1,40 @@
+.main h2 {
+  display: flex;
+  align-items: center;
+  background-color: #d29448;
+  border-radius: 30px;
+  padding: 0.1rem 1rem;
+  gap: 0.5rem;
+  width: fit-content;
+}
+
+.main h2 img {
+  width: 2rem;
+}
+
+.main img {
+  width: 60%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+
+main {
+  height: 100vh;
+  padding: 1rem;
+}
+
+.titulo img {
+  width: 2rem;
+}
+
+.section img {
+  width: 60%;
+  padding: 0.5rem;
+  background-color: #193d3f;
+}
