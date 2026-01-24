@@ -5,7 +5,8 @@ main {
   gap: 1rem;
 }
 
-h2 {
+h2,
+h4 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -16,33 +17,12 @@ h2 {
   width: fit-content;
 }
 
-h4 {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: #d29448;
-  border: none;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  width: fit-content;
-}
-
 h2 img {
   width: 2rem;
 }
 
 h4 img {
   width: 1rem;
-}
-
-.section .jogo {
-  width: 70%;
-  padding: 0.5rem;
-  background-color: #193d3f;
-}
-
-.listas .section h3 {
-  background-color: #d84a3a;
 }
 
 .section {
@@ -58,29 +38,22 @@ h4 img {
   width: fit-content;
 }
 
-aside h4 {
-  display: flex;
-  background-color: #4fb6d3;
-  border-radius: 30px;
-  border: none;
-  padding: 0.1rem 1rem;
-  width: fit-content;
-  background-color: #c65aff;
-}
-
 .listas {
   padding-left: 1rem;
 }
 
-.itch-embed {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 0.5rem;
+.listas h3 {
+  background-color: #d84a3a;
 }
 
-.gameplay {
+.imagens-gameplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.imagens-gameplay figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,9 +61,10 @@ aside h4 {
   padding-top: 0.5rem;
 }
 
-.jogar {
-  width: 34rem;
-  height: 10rem;
+.imagens-gameplay .jogo {
+  width: 70%;
+  padding: 0.5rem;
+  background-color: #193d3f;
 }
 
 .cozinheiro {
@@ -101,9 +75,25 @@ aside h4 {
   top: 19.3rem;
 }
 
-.imagens-gameplay {
+aside h4 {
   display: flex;
-  flex-direction: row;
+  background-color: #4fb6d3;
+  border-radius: 30px;
+  border: none;
+  padding: 0.1rem 1rem;
+  width: fit-content;
+  background-color: #c65aff;
+}
+
+.itch-embed {
+  display: flex;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.jogar {
+  width: 34rem;
+  height: 10rem;
 }

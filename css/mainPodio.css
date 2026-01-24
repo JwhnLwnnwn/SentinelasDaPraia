@@ -1,3 +1,8 @@
+main {
+  height: 100vh;
+  padding: 1rem;
+}
+
 .main h2 {
   display: flex;
   align-items: center;
@@ -8,12 +13,8 @@
   width: fit-content;
 }
 
-.main h2 img {
+h2 img {
   width: 2rem;
-}
-
-.main img {
-  width: 60%;
 }
 
 figure {
@@ -22,15 +23,6 @@ figure {
   align-items: center;
   gap: 0.5rem;
   padding: 2rem 0;
-}
-
-main {
-  height: 100vh;
-  padding: 1rem;
-}
-
-.titulo img {
-  width: 2rem;
 }
 
 .section img {
